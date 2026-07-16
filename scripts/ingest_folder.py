@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 """CLI script to ingest a folder of documents into the RAG pipeline."""
 import argparse
+import sys
 from pathlib import Path
+
+# Allow running the script before the package is installed.
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPT_DIR.parent / "src"))
 
 from rag_app.config import RAGConfig
 from rag_app.ingest import ingest_directory

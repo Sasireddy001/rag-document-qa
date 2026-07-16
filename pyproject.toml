@@ -38,3 +38,7 @@ Repository = "https://github.com/Sasireddy001/rag-document-qa"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
