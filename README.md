@@ -142,6 +142,43 @@ rag-document-qa/
 pytest
 ```
 
+## Docker Deployment
+
+### Using Docker Compose (recommended)
+
+```bash
+# Copy environment template and configure
+cp .env.example .env
+
+# Start all services (ChromaDB, FastAPI, Streamlit)
+docker-compose up -d
+
+# Access services
+# FastAPI: http://localhost:8000
+# Streamlit: http://localhost:8501
+# ChromaDB: http://localhost:8001
+```
+
+The Docker Compose setup includes:
+- **ChromaDB** — persistent vector database
+- **FastAPI backend** — REST API for ingestion and Q&A
+- **Streamlit UI** — chat interface
+
+### Using Docker directly
+
+```bash
+# Build the image
+docker build -t rag-document-qa .
+
+# Run the container
+docker run -p 8000:8000 \
+  -e CHROMA_HOST=host.docker.internal \
+  -e CHROMA_PORT=8000 \
+  -e LLM_PROVIDER=openai \
+  -e OPENAI_API_KEY=$OPENAI_API_KEY \
+  rag-document-qa
+```
+
 ## Deployment Notes
 
 - The FastAPI app can be deployed with Docker or any ASGI server.
