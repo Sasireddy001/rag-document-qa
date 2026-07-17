@@ -193,6 +193,10 @@ docker run -p 8000:8000 \
 - [LinkedIn](https://www.linkedin.com/in/sasidhar-mopuru-417a03233)
 - Email: sasidharmopuru@gmail.com
 
+**Certifications:**
+- DP-700: Implementing Data Engineering Solutions using Microsoft Fabric – Microsoft
+- Databricks Certified Data Engineer Associate – Databricks
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
