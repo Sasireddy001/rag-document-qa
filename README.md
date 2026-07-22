@@ -7,6 +7,8 @@ A production-style **Retrieval-Augmented Generation (RAG)** application that ing
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-1A1A1A?logo=chromadb&logoColor=white)](https://www.trychroma.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Architecture](https://img.shields.io/badge/Architecture-2563EB)](ARCHITECTURE.md)
+[![System Design](https://img.shields.io/badge/System%20Design-06B6D4)](SYSTEM_DESIGN.md)
 
 ## What this project demonstrates
 
