@@ -191,7 +191,7 @@ docker run -p 8000:8000 \
 
 - **Sasidhar Mopuru** — Data & AI Platform Engineer
 - [GitHub](https://github.com/Sasireddy001)
-- [Portfolio](https://sasireddy001.github.io/Portfolio)
+- [Portfolio](https://sasireddy001.github.io/Portfolio/)
 - [LinkedIn](https://www.linkedin.com/in/sasidhar-mopuru-417a03233)
 - Email: sasidharmopuru@gmail.com
 
